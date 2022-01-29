@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: jira-hello-world-hello-world-panel
+      function: main
+      title: Forge app for Aniket
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/357b012c-8b83-40ef-921b-129efa466d9d
